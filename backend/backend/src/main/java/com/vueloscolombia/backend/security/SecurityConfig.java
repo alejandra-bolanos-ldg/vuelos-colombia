@@ -9,7 +9,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import com.vueloscolombia.backend.service.CustomUserDetailsService;
+import com.vueloscolombia.backend.security.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Configuration

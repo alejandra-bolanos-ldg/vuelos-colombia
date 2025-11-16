@@ -1,32 +1,26 @@
 package com.vueloscolombia.backend.dto;
 
 public class LoginResponse {
-
     private String token;
-    private Long usuarioId;
-    private String nombre;
-    private String rol;
+    private Long usuarioId;    
+    private String username;  
+    private String rol;        
 
-    public LoginResponse(String token, Long usuarioId, String nombre, String rol) {
+    public LoginResponse() {}
+
+    public LoginResponse(String token) {
         this.token = token;
-        this.usuarioId = usuarioId;
-        this.nombre = nombre;
-        this.rol = rol;
     }
 
-    public String getToken() {
-        return token;
-    }
+    public String getToken() { return token; }
+    public void setToken(String token) { this.token = token; }
 
-    public Long getUsuarioId() {
-        return usuarioId;
-    }
+    public Long getUsuarioId() { return usuarioId; }
+    public void setUsuarioId(Long usuarioId) { this.usuarioId = usuarioId; }
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getUsername() { return username; }
+    public void setUsername(String username) { this.username = username; }
 
-    public String getRol() {
-        return rol;
-    }
+    public String getRol() { return rol; }
+    public void setRol(String rol) { this.rol = rol; }
 }

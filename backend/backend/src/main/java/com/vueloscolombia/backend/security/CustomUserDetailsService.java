@@ -1,4 +1,5 @@
-package com.vueloscolombia.backend.service;
+package com.vueloscolombia.backend.security;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import com.vueloscolombia.backend.repository.UsuarioRepository;
 import com.vueloscolombia.backend.model.Usuario;

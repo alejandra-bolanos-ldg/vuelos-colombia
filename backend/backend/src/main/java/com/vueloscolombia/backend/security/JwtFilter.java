@@ -10,7 +10,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import com.vueloscolombia.backend.service.CustomUserDetailsService;
+import com.vueloscolombia.backend.security.CustomUserDetailsService;
 import java.io.IOException;
 
 @Component

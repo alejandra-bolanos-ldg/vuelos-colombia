@@ -3,30 +3,93 @@ package com.vueloscolombia.backend.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "vuelos")
 public class Vuelo {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private int disponibles;
     private String origen;
     private String destino;
-    private String fecha; 
-    private Double precio;
-    private Integer disponibles;
+    private double precio;
+    private String horaSalida;
+    private String horaLlegada;
+    private String fecha;  
 
-    public Vuelo() {}
 
-    // getters y setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    public String getOrigen() { return origen; }
-    public void setOrigen(String origen) { this.origen = origen; }
-    public String getDestino() { return destino; }
-    public void setDestino(String destino) { this.destino = destino; }
-    public String getFecha() { return fecha; }
-    public void setFecha(String fecha) { this.fecha = fecha; }
-    public Double getPrecio() { return precio; }
-    public void setPrecio(Double precio) { this.precio = precio; }
-    public Integer getDisponibles() { return disponibles; }
-    public void setDisponibles(Integer disponibles) { this.disponibles = disponibles; }
+    public Vuelo() {
+    }
+
+    public Vuelo(String origen, String destino, double precio, String horaSalida, String horaLlegada, int disponibles, String fecha) {
+        this.disponibles=disponibles;
+        this.fecha=fecha;
+        this.origen = origen;
+        this.destino = destino;
+        this.precio = precio;
+        this.horaSalida = horaSalida;
+        this.horaLlegada = horaLlegada;
+    }
+
+    // GETTERS Y SETTERS
+    public int getDisponibles() {
+        return disponibles;
+    }
+
+    public void setDisponibles(int disponibles) {
+        this.disponibles = disponibles;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getOrigen() {
+        return origen;
+    }
+
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public String getHoraSalida() {
+        return horaSalida;
+    }
+
+    public void setHoraSalida(String horaSalida) {
+        this.horaSalida = horaSalida;
+    }
+
+    public String getHoraLlegada() {
+        return horaLlegada;
+    }
+
+    public void setHoraLlegada(String horaLlegada) {
+        this.horaLlegada = horaLlegada;
+    }
 }
