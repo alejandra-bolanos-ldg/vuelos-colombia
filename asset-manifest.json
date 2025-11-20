@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/proyecto-pagina-vuelo/static/css/main.b1a839e7.css",
-    "main.js": "/proyecto-pagina-vuelo/static/js/main.a09a78b4.js",
+    "main.js": "/proyecto-pagina-vuelo/static/js/main.78dba3e9.js",
     "static/media/logo_header_white.png": "/proyecto-pagina-vuelo/static/media/logo_header_white.bae46d867a068c3c4d72.png",
     "index.html": "/proyecto-pagina-vuelo/index.html",
     "main.b1a839e7.css.map": "/proyecto-pagina-vuelo/static/css/main.b1a839e7.css.map",
-    "main.a09a78b4.js.map": "/proyecto-pagina-vuelo/static/js/main.a09a78b4.js.map"
+    "main.78dba3e9.js.map": "/proyecto-pagina-vuelo/static/js/main.78dba3e9.js.map"
   },
   "entrypoints": [
     "static/css/main.b1a839e7.css",
-    "static/js/main.a09a78b4.js"
+    "static/js/main.78dba3e9.js"
   ]
 }
