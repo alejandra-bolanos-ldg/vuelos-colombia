@@ -1,14 +1,17 @@
 # railway.toml
-# This file defines multiple services within a single Railway project
+# Configuring a monorepo for Railway
 
-[[service]]
-name = "backend"
-root = "backend/backend"
-build = { dockerfile = "Dockerfile" } # Path to Dockerfile relative to 'root'
-deploy = { startCommand = "java -jar app.jar" }
+[build]
+# Use Nixpacks to automatically detect how to build each service
+builder = 'nixpacks'
 
-[[service]]
-name = "frontend"
-root = "frontend"
-# No specific build/deploy commands needed here as Vercel will handle the frontend.
-# This entry primarily helps Railway understand the monorepo structure.
+# Define the backend service
+[[services]]
+name = 'backend'
+# The root directory for the backend service, relative to the repo root
+rootDir = './backend/backend'
+
+# Define the frontend service (for structure, even if deployed elsewhere)
+[[services]]
+name = 'frontend'
+rootDir = './frontend'
