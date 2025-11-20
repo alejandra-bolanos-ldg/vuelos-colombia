@@ -1,9 +1,8 @@
 [build]
 builder = "nixpacks"
-buildCommand = "apt-get update && apt-get install -y maven && cd backend/backend && mvn clean package -DskipTests"
 
 [deploy]
-startCommand = "cd backend/backend && java -jar target/backend-0.0.1-SNAPSHOT.jar"
+startCommand = "java -jar backend/target/backend-0.0.1-SNAPSHOT.jar"
 
 [build.environment]
 JAVA_VERSION = "17"
