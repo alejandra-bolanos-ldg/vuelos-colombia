@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8080',
+  baseURL: 'https://vuelos-colombia-production.up.railway.app',
 });
 
 // Interceptor para añadir el token de autenticación a las cabeceras
