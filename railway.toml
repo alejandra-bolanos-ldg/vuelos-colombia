@@ -4,14 +4,6 @@ buildCommand = "cd backend/backend && ./mvnw clean package -DskipTests"
 
 [deploy]
 startCommand = "cd backend/backend && java -jar target/backend-0.0.1-SNAPSHOT.jar"
-restartPolicyType = "ON_FAILURE"
 
 [build.environment]
 JAVA_VERSION = "17"
-
-[deploy.healthcheck]
-path = "/api/auth/health"
-port = 8080
-timeout = 60
-interval = 30s
-retries = 5
