@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/proyecto-pagina-vuelo/static/css/main.b1a839e7.css",
-    "main.js": "/proyecto-pagina-vuelo/static/js/main.78dba3e9.js",
-    "static/media/logo_header_white.png": "/proyecto-pagina-vuelo/static/media/logo_header_white.bae46d867a068c3c4d72.png",
-    "index.html": "/proyecto-pagina-vuelo/index.html",
-    "main.b1a839e7.css.map": "/proyecto-pagina-vuelo/static/css/main.b1a839e7.css.map",
-    "main.78dba3e9.js.map": "/proyecto-pagina-vuelo/static/js/main.78dba3e9.js.map"
+    "main.css": "/vuelos-colombia/static/css/main.b1a839e7.css",
+    "main.js": "/vuelos-colombia/static/js/main.dbbd571c.js",
+    "static/media/logo_header_white.png": "/vuelos-colombia/static/media/logo_header_white.bae46d867a068c3c4d72.png",
+    "index.html": "/vuelos-colombia/index.html",
+    "main.b1a839e7.css.map": "/vuelos-colombia/static/css/main.b1a839e7.css.map",
+    "main.dbbd571c.js.map": "/vuelos-colombia/static/js/main.dbbd571c.js.map"
   },
   "entrypoints": [
     "static/css/main.b1a839e7.css",
-    "static/js/main.78dba3e9.js"
+    "static/js/main.dbbd571c.js"
   ]
 }
