@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vuelos-colombia/static/css/main.b1a839e7.css",
-    "main.js": "/vuelos-colombia/static/js/main.1be9581f.js",
+    "main.js": "/vuelos-colombia/static/js/main.cf116cca.js",
     "static/media/logo_header_white.png": "/vuelos-colombia/static/media/logo_header_white.bae46d867a068c3c4d72.png",
     "index.html": "/vuelos-colombia/index.html",
     "main.b1a839e7.css.map": "/vuelos-colombia/static/css/main.b1a839e7.css.map",
-    "main.1be9581f.js.map": "/vuelos-colombia/static/js/main.1be9581f.js.map"
+    "main.cf116cca.js.map": "/vuelos-colombia/static/js/main.cf116cca.js.map"
   },
   "entrypoints": [
     "static/css/main.b1a839e7.css",
-    "static/js/main.1be9581f.js"
+    "static/js/main.cf116cca.js"
   ]
 }
