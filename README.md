@@ -14,4 +14,4 @@ Tecnologías
 - MySQL
 - Railway (despligue del back y front)
 
-**URL:** 👉 [https://alejandra-bolanos-ldg.github.io/landing-page/](https://alejandra-bolanos-ldg.github.io/landing-page/)
+**URL:** 👉 [https://alejandra-bolanos-ldg.github.io/landing-page/](https://alejandra-bolanos-ldg.github.io/vuelos-colombia/)
